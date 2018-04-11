@@ -1,0 +1,17 @@
+% can't be solved by Vampire mode in 30s
+
+tff(symb_$n, type, $n : $int).
+tff(symb_a, type, a : ($int * $int) > $int).
+tff(symb_a0, type, a0 : $int > $int).
+tff(symb_a_nonext, type, a_nonext : $int > $int).
+tff(symb_alength, type, alength : $int > $int).
+tff(symb_alength0, type, alength0 : $int).
+tff(symb_alength_nonext, type, alength_nonext : $int).
+tff(symb_i, type, i : $int > $int).
+tff(symb_i_nonext, type, i_nonext : $int).
+tff(symb_r, type, r : $int > $int).
+tff(symb_r_nonext, type, r_nonext : $int).
+tff(symb_v, type, v : $int > $int).
+tff(symb_v0, type, v0 : $int).
+tff(symb_v_nonext, type, v_nonext : $int).
+tff(conclusion, conjecture, r($sum($sum($n,-1),1)) = r($n) ).
